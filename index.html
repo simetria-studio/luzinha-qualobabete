@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Luzinha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./plugin/bootstrap-4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugin/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background: #EE2461;">
+    <main class="back">
+        <section class="back-1 flex-center-geral">
+            <div class="container" style="text-align: center;">
+                <img id="play" src="./img/play 1.svg" alt="Botão de Play">
+                <h1 class="back-title">Jogar de novo?</h1>
+            </div>
+        </section>
+
+        <section class="back-2">
+            <h1 class="back-title">Qual é o babete?</h1>
+        </section>
+
+        <section class="back-3">
+            <div class="div-voltar"><a href="https://app.mundodaluzinha.com/jogos"><img class="img-voltar" src="./img/voltar.png" alt=""></a></div>
+
+            <div class="container-fluid">
+                <div class="row-custom">
+                    <div class="col-6 col-custom">
+                        <div style="width: 80%;"><img src="./img/Ativo 4 1.svg" alt=""></div>
+                        <div id="babete_div" data-id="valid"></div>
+                    </div>
+
+                    <div class="col-6 col-custom">
+                        <!-- Cores -->
+                        <div class="row-custom justify-content-between">
+                            <div class="col-6 icons icon-1 flex-center-geral"></div>
+                            <div class="col-6 icons icon-2 flex-center-geral"></div>
+                            <div class="col-6 icons icon-3 flex-center-geral"></div>
+                            <div class="col-6 icons icon-4 flex-center-geral"></div>
+                            <div class="col-6 icons icon-5 flex-center-geral"></div>
+                            <div class="col-6 icons icon-6 flex-center-geral"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="div-ico div-erro d-none"><img class="img-erro" src="./img/warning.svg" alt=""></div>
+        <div class="div-ico div-correto d-none"><img class="img-correto" src="./img/checked.svg" alt=""></div>
+    </main>
+
+    <script src="./plugin/jquery-3.6.0.min.js"></script>
+    <script src="./plugin/bootstrap-4.6.0/js/bootstrap.min.js"></script>
+    <script src="./plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="./plugin/jquery.ui.touch-punch.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
