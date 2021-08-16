@@ -29,6 +29,7 @@ img {
     top: 3%;
     right: 9%;
     text-align: right;
+    z-index: 100;
 }
 
 .div-voltar .img-voltar {
