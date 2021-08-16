@@ -37,7 +37,7 @@ $(window).on('orientationchange',function(){
         'height': width+'px'
     });
 
-    cols_img_color(width, height);
+    cols_img_babete(width, height);
 });
 // Quando ouver mudança no tamnho da tela atualizar o tamnho do block
 $(window).on('resize',function(){
@@ -49,7 +49,7 @@ $(window).on('resize',function(){
         'height': height+'px'
     });
 
-    cols_img_color(width, height);
+    cols_img_babete(width, height);
 });
 
 // Essa função serve para distribuir a imagem aleatoriamente
