@@ -25,7 +25,7 @@ img {
 }
 
 .div-voltar {
-    position: absolute;
+    position: fixed;
     top: 3%;
     right: 9%;
     text-align: right;

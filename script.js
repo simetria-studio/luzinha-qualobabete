@@ -141,7 +141,7 @@ $(document).ready(function(){
         });
     }, 1500);
     // Iniciar o Jogo novamente
-    $(document).on('click', '#play', function(){
+    $(document).on('click', '.play', function(){
         setTimeout(() => {
             $('.back-2').show( 'slide', {}, 1000, function() {
                 $('.back-1').hide('slide', {}, 1000, function(){
